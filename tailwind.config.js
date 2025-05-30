@@ -29,6 +29,16 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a'
+},
+        chat: {
+          sent: '#6366f1',
+          received: '#f1f5f9',
+          'sent-dark': '#4f46e5',
+          'received-dark': '#334155'
+        },
+        online: '#10b981',
+        away: '#f59e0b',
+        offline: '#6b7280'
         }
       },
       fontFamily: {
@@ -40,6 +50,8 @@ export default {
         'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
         'neu-light': '5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff',
         'neu-dark': '5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05)'
+'neu-dark': '5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05)',
+        'message': '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
       },
       borderRadius: {
         'xl': '0.75rem',
